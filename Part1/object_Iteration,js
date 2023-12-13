@@ -1,0 +1,27 @@
+
+// how to iterate objects
+
+const person={
+    name:"uttkarsh",
+    age:20,
+    "person hobbies":["guitar","sleeping","listening"] // agar ham log variable me space de rhe hai to 
+
+};
+
+
+// for in loop 
+// object.keys
+
+for(let key in person ){
+    console.log(key);
+    console.log(person[key]);
+}
+
+
+// Object.keys() method :-The Object.keys() method returns an Array Iterator object with the keys of an object.
+console.log(object.keys(person));
+
+
+for (let key of object.keys(person)){
+    console.log(person[key]);
+}
